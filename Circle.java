@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+* Math Tutor Project: Circle
+* Vince Long
+* Purpose: To solve area of a circle using user input
+*/ 
 public class Circle {
 private static double radius = 0;    
 

@@ -1,3 +1,8 @@
+/*
+* Math Tutor Project: slope
+* Vince Long
+* Purpose: To solve slope between 2 points using user input
+*/ 
 import java.util.Scanner;
 public class Slope {
     private static double x1 = 0;

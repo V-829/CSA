@@ -1,5 +1,10 @@
+/*
+* Math Tutor Project: Circle
+* Vince Long
+* Purpose: To solve area of a trapezoid using user input
+*
+*/ 
 import java.util.Scanner;
-
 public class Trapezoid {
 private static double base1 = 0;
 private static double base2 = 0;
@@ -21,8 +26,8 @@ check2 = false;
 }
 
  check2 = true;
-System.out.println("What should be the bottom base of the trapezoid? ");
 while(check2){
+System.out.println("What should be the bottom base of the trapezoid? ");
 if (input.hasNextDouble()){
  base2 = input.nextDouble();
 check2 = false;
@@ -34,8 +39,8 @@ check2 = false;
 }
 
 check2 = true;
-System.out.println("What should be the height of the trapezoid? ");
 while(check2){
+System.out.println("What should be the height of the trapezoid? ");
 if (input.hasNextDouble()){
  height = input.nextDouble();
 check2 = false;
