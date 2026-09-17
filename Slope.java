@@ -2,6 +2,7 @@
 * Math Tutor Project: slope
 * Vince Long
 * Purpose: To solve slope between 2 points using user input
+* Resource: Java documentation
 */ 
 import java.util.Scanner;
 public class Slope {

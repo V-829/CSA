@@ -2,6 +2,7 @@
 * Math Tutor Project Main
 * Vince Long
 * Purpose: To solve 3 types of math problems by which the user chooses one of them
+* Resource: Java documentation
 */ 
 import java.util.Scanner;
 public class MathTutorAPCSA{

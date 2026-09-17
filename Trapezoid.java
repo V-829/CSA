@@ -2,7 +2,7 @@
 * Math Tutor Project: Circle
 * Vince Long
 * Purpose: To solve area of a trapezoid using user input
-*
+* Resource: Java documentation
 */ 
 import java.util.Scanner;
 public class Trapezoid {
