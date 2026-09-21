@@ -1,5 +1,5 @@
 /*
-* Math Tutor Project: Circle
+* Math Tutor Project: Trapezoid
 * Vince Long
 * Purpose: To solve area of a trapezoid using user input
 * Resource: Java documentation
