@@ -12,7 +12,7 @@ public class MathTutorAPCSA{
         Scanner input = new Scanner(System.in);
         int choice = 0;
         boolean repeatQuestion = true;
-
+        //Repeats the question as long as repeatQuestion is true; user must input valid input
         while(repeatQuestion){
          //Asks user what problem they want to solve
         System.out.println("\nWhat type of problem do you want to solve? (only provide the listed number)"+ "\n1. Area of a circle \n2. Area of a trapezoid \n3. Slope between 2 points");

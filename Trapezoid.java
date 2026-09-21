@@ -14,6 +14,7 @@ boolean check2 = true;
 
 System.out.println("Thank you for choosing to calculate the area of a trapezoid.");
 
+//Repeats the prompt over and over until user inputs a valid input
 while(check2){
 System.out.println("What should be the top base of the trapezoid? ");
 if (input.hasNextDouble()){
@@ -24,7 +25,7 @@ check2 = false;
     input.nextLine();
 }
 }
-
+//Repeats the prompt over and over until user inputs a valid input
  check2 = true;
 while(check2){
 System.out.println("What should be the bottom base of the trapezoid? ");
@@ -37,7 +38,7 @@ check2 = false;
 
 }
 }
-
+//Repeats the prompt over and over until user inputs a valid input
 check2 = true;
 while(check2){
 System.out.println("What should be the height of the trapezoid? ");

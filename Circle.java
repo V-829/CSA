@@ -11,6 +11,7 @@ private static double radius = 0;
 public static void radiusAndCalculate(Scanner input){
 boolean check1 = true;
  System.out.println("Thank you for choosing to calculate the area of a circle.");
+ //Repeats the prompt over and over until user inputs a valid input
 while(check1){
  System.out.println("What should the radius of the circle be? ");
 if (input.hasNextDouble()){
