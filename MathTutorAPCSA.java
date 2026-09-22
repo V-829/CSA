@@ -12,6 +12,7 @@ public class MathTutorAPCSA{
         Scanner input = new Scanner(System.in);
         int choice = 0;
         boolean repeatQuestion = true;
+        
         //Repeats the question as long as repeatQuestion is true; user must input valid input
         while(repeatQuestion){
          //Asks user what problem they want to solve
@@ -35,7 +36,6 @@ public class MathTutorAPCSA{
         //Selects a problem to solve based on what the user inputs1
         if(choice == 1){
             //solves a circle area problem
-            
             Circle.radiusAndCalculate(input);
         }   else if(choice == 2){
             //solves a trapezoid area problem

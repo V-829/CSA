@@ -64,6 +64,7 @@ check3 = false;
     input.nextLine();
 }
 }
+//prints out calculation
 System.out.println("The slope of your two points using the formula (y1-y2)/(x1-x2) with your coordinates (" + x1 + "," + y1 + ") and (" + x2 + "," + y2 + ") is " + ((y2-y1)/(x2-x1)));
  }
 
