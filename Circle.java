@@ -23,7 +23,7 @@ else{
     input.nextLine();
 }
 }
- System.out.println("The area of your chosen circle using the formula pi * r^2 with your radius " +radius + " is " + (radius * radius *Math.PI) + " units squared");
+ System.out.println("The area of your chosen circle using the formula pi * r^2 with your radius " +radius + " is " + (Math.pow(radius,2)*Math.PI) + " units squared");
 
 }
 
