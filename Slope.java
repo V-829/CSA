@@ -52,6 +52,7 @@ check3 = false;
 }
 }
 
+//Repeats the prompt over and over until user inputs a valid input
 check3 = true;
 System.out.println("What should be your second x coordinate? ");
 while(check3){
