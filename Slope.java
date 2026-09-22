@@ -13,12 +13,13 @@ public class Slope {
  public static void slopeCalculate(Scanner input){
 boolean check3 = true;
 System.out.println("Thank you for choosing to calculate the slope between 2 points.");
+
 //Repeats the prompt over and over until user inputs a valid input
 while(check3){
 System.out.println("What should be your first y coordinate? ");
 if (input.hasNextDouble()){
  y1 = input.nextDouble();
-check3 = false;
+ check3 = false;
 } else{
     System.out.println("That's not a valid input, please try again");
     input.nextLine();
